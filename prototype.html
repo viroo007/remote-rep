@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>JS object prototype</h1>
+        <p id="demo"></p>
+        <script>
+            function student(n,r,d,g){
+                this.name=n;
+                this.rollno=r;
+                this.dob=d;
+
+            }
+            const mydetails=new student("kumar","111","11-11-2011","m");
+            student.prototype.marks="90";
+            document.getElementById("demo").innerHTML=mydetails.marks;
+            </script>
+    </body>
+</html>
+                
