@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>JS object accessors</h1>
+        <p id="demo"></p>
+        <script>
+            const student={
+                name:"kumar",
+                rollno:"111",
+                dob:"11-11-2011",
+                setname:function(value){
+                    this.name=value;
+                }
+            }
+            student.setname("rajesh");
+            document.getElementById("demo").innerHTML=student.name;
+            </script>
+    </body>
+</html>
