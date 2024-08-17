@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./ecommerce.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    
+    
+  </head>
+  
+  
+  <body>
+    <header>
+      <div class="logo"><a href="#">WorldCart.in</a></div>
+      <div class="menu">
+        <a href="#">
+          <ion-icon name="close" class="close"></ion-icon>
+        </a>
+  
+        <ul>
+          <li><a href="#" class="under">HOME</a></li>
+          <li><a href="#" class="under">SHOP</a></li>
+          <li><a href="#" class="under">OUR PRODUCTS</a></li>
+          <li><a href="#" class="under">CONTACT US</a></li>
+          <li><a href="#" class="under">ABOUT US</a></li>
+        </ul>
+      </div>
+      <div class="search">
+  
+        <a href=""><input type="text" placeholder="search products" id="input">
+          <ion-icon class="s" name="search"></ion-icon>
+        </a>
+      </div>
+      <div class="heading">
+        <ul>
+          <li><a href="#" class="under">HOME</a></li>
+          <li><a href="#part" class="under">SHOP</a></li>
+          <li><a href="#" class="under">OUR PRODUCTS</a></li>
+          <li><a href="#" class="under">CONTACT US</a></li>
+          <li><a href="#" class="under">ABOUT US</a></li>
+        </ul>
+      </div>
+      <div class="heading1">
+        <ion-icon name="menu" class="ham"></ion-icon>
+      </div>
+    </header>
+    <section>
+      <div class="section">
+        <div class="section1">
+          <div class="img-slider">
+            <img src="https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img">
+            <img src="https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img">
+            <img src="https://images.pexels.com/photos/2292953/pexels-photo-2292953.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img">
+            <img src="https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img">
+            <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img">
+          </div>
+        </div>
+        <p class="text" family="Sofia">  Welcome WorldCart
+                              
+        </p>
+        <p class="text1">Products are avilable On Best Prices & Offers
+          Explore Now!!</p>
+  
+        </div>
+        <div class="section2" id="part">
+          <div class="container">
+            <div class="items">
+              <div class="img img1"><img src="https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></div>
+              <div class="name">SHOES</div>
+              <div class="price">$5</div>
+              <div class="info">	
+                Atom Men Colourblocked High-Top Lace-Up Sneakers (7) </div>
+                <div>
+                  <button class="button" onclick="addToCart('SHOES', 5)">Add to Cart</button>
+              <button type="button" class="button1">Order Now</button></div>
+            </div>
+
+            <div class="items">
+              <div class="img img2"><img src="https://images.pexels.com/photos/3649765/pexels-photo-3649765.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+              <div class="name">MEN's T-SHIRT</div>
+              <div class="price">$6.34</div>
+              <div class="info">	
+                Puma Men T Regular Fit Shirt</div>
+                <div>
+                    <button type="button" class="button" onclick="addToCart('MENs T-SHIRT', 6.34)">Add to Cart</button>
+                    <button type="button" class="button1">Order Now</button></div>
+                  </div>
+
+            <div class="items">
+              <div class="img img3"><img src="download (3).jpeg" alt=""></div>
+              <div class="name">JEANS</div>
+              <div class="price">$9</div>
+              <div class="info">	
+                Denim Fit Loose Fit Women Light Blue Jeans</div>
+                <div>
+                    <button type="button" class="button" onclick="addToCart('JEANS', 9)">Add to Cart</button>
+                    <button type="button" class="button1">Order Now</button></div>
+                  </div>
+
+            <div class="items">
+              <div class="img img1"><img src="https://images.pexels.com/photos/8839887/pexels-photo-8839887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></div>
+              <div class="name">WATCH</div>
+              <div class="price">$9.1</div>
+              <div class="info">Rolex Daytona 116595Rbow-0001 Chronometer.</div>
+              <div>
+                <button type="button" class="button" onclick="addToCart('WATCH', 10)">Add to Cart</button>
+                <button type="button" class="button1">Order Now</button></div>
+              </div>
+
+            <div class="items">
+              <div class="img img1"><img src="download (4).jpeg" alt=""></div>
+              <div class="name">SMART PHONE</div>
+              <div class="price">$20</div>
+              <div class="info">Super Primium Flackship SmartPhone</div>
+              <div>
+                <button type="button" class="button" onclick="addToCart('SMART PHONE', 25)">Add to Cart</button>
+                <button type="button" class="button1">Order Now</button></div>
+              </div>
+
+            <div class="items">
+              <div class="img img1"><img src="https://images.pexels.com/photos/5552789/pexels-photo-5552789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></div>
+              <div class="name">TELEVISION</div>
+              <div class="price">$18</div>
+              <div class="info">OnePlus 101.6 cm (40 inch) Full HD Smart LED TV, 40Y1S
+            </div>
+            <div>
+                <button type="button" class="button" onclick="addToCart('TELEVISION', 20)">Add to Cart</button>
+                <button type="button" class="button1">Order Now</button></div>
+              </div>
+
+            <div class="items">
+              <div class="img img1"><img src="https://images.pexels.com/photos/4295985/pexels-photo-4295985.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+              <div class="name">HOODIES</div>
+              <div class="price">$6.7</div>
+              <div class="info">	
+                VEIRDO Men Brown Fleece Printed Hooded Sweatshirt</div>
+                <div>
+                    <button type="button" class="button" onclick="addToCart('HOODIES', 6.7)">Add to Cart</button>
+                    <button type="button" class="button1">Order Now</button></div>
+                  </div>
+
+            <div class="items">
+              <div class="img img1"><img src="download (2).jpeg" alt=""></div>
+              <div class="name">DINNER SET</div>
+              <div class="price">$10</div>
+              <div class="info">Gift Zone Melamine Floral Dinner Set Of 41 Pcs. (White)</div>
+              <div>
+                <button type="button" class="button" onclick="addToCart('DINNER SET', 12)">Add to Cart</button>
+                <button type="button" class="button1">Order Now</button></div>
+              </div>
+
+            <div class="items">
+              <div class="img img1"><img src="https://images.pexels.com/photos/6463348/pexels-photo-6463348.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+              <div class="name">BLANKETS</div>
+              <div class="price">$9.9</div>
+              <div class="info">Euro Ultra Two Ply Mink Double Bed Blanket for Heavy Winter</div>
+              <div>
+                <button type="button" class="button" onclick="addToCart('BLANKETS', 10)">Add to Cart</button>
+                <button type="button" class="button1">Order Now</button></div>
+             
+            <div class="items">
+              <div class="img img1"><img src="https://images.pexels.com/photos/2659939/pexels-photo-2659939.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+              <div class="name">LAPTOP</div>
+              <div class="price">$99</div>
+              <div class="info">Acer Aspire 7 Gaming (16GB RAM , 512 GB Storage)
+            </div>
+            <div>
+                <button type="button" class="button" onclick="addToCart('LAPTOP', 100)">Add to Cart</button>
+                <button type="button" class="button1">Order Now</button></div>
+              </div>
+
+            <div class="items">
+              <div class="img img1"><img src="download.jpeg" alt=""></div>
+              <div class="name">MICROWAVE</div>
+              <div class="price">$30</div>
+              <div class="info">Carysil Built-In Convection Microwave MWO 3
+            </div>
+            <div>
+                <button type="button" class="button" onclick="addToCart('MICROWAVE', 30)">Add to Cart</button>
+                <button type="button" class="button1">Order Now</button></div>
+              </div>
+
+              <div class="items">
+                <div class="img img1"><img src="https://images.pexels.com/photos/4339598/pexels-photo-4339598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></div>
+                <div class="name">BAG</div>
+                <div class="price">$36.5</div>
+                <div class="info">Skybags Gigs 17L Backpack </div>
+                <div>
+                  <button type="button" class="button" onclick="addToCart('BAG', 36.5)">Add to Cart</button>
+                  <button type="button" class="button1">Order Now</button></div>
+                </div>
+
+            <div class="items">
+              <div class="img img1"><img src="download (1).jpeg" alt=""></div>
+              <div class="name">COFFEE MAKER</div>
+              <div class="price">$29.7</div>
+              <div class="info">Havells Crystal Tea-Coffee Maker (Black)</div>
+              <div>
+                <button type="button" class="button" onclick="addToCart('COFEE MAKER', 30)">Add to Cart</button>
+                <button type="button" class="button1">Order Now</button></div>
+              </div>
+
+            <div class="items">
+              <div class="img img1"><img src="https://images.pexels.com/photos/6606354/pexels-photo-6606354.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+              <div class="name">BED</div>
+              <div class="price">$100</div>
+              <div class="info">Aurora Wooden Queen Bed</div>
+              <div>
+                <button type="button" class="button" onclick="addToCart('BED', 100)">Add to Cart</button>
+                <button type="button" class="button1">Order Now</button></div>
+              </div>
+
+            <div class="items">
+              <div class="img img1"><img src="images.jpeg" alt=""></div>
+              <div class="name">AIR CONDITIONER</div>
+              <div class="price">$78</div>
+              <div class="info">Whirlpool 1 Ton 5 Star Split Inverter Ac - White
+            </div>
+            <div>
+                <button type="button" class="button" onclick="addToCart('AIR CONDITIONER', 78)">Add to Cart</button>
+                <button type="button" class="button1">Order Now</button></div>
+              </div>
+
+            <div class="items">
+              <div class="img img1"><img src="https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></div>
+              <div class="name">BOOK</div>
+              <div class="price">$9</div>
+              <div class="info">ATOMIC HABITS</div>
+              <div>
+                <button type="button" class="button" onclick="addToCart('BOOK', 9)">Add to Cart</button>
+                <button type="button" class="button1">Order Now</button></div>
+              </div>
+
+            
+
+            <div class="items">
+              <div class="img img1"><img src="images (1).jpeg" alt=""></div>
+              <div class="name">SAREES</div>
+              <div class="price">$25.6</div>
+              <div class="info">Kedar Fab Embroidered Saree(Onesize) by Myntra</div>
+              <div>
+                <button type="button" class="button" onclick="addToCart('SAREES', 25.6)">Add to Cart</button>
+                <button type="button" class="button1">Order Now</button></div>
+              </div>
+
+            <div class="items">
+              <div class="img img1"><img src="https://images.pexels.com/photos/5816934/pexels-photo-5816934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></div>
+              <div class="name">WASHING MACHINE</div>
+              <div class="price">$56</div>
+              <div class="info">Marq By Flipkart By Flipkart 8</div>
+              <div>
+                <button type="button" class="button" onclick="addToCart('WASHING MACHINE', 56)">Add to Cart</button>
+                <button type="button" class="button1">Order Now</button></div>
+              </div>
+          </div>
+  
+        </div>
+      </div>
+  
+    </section>
+    <footer>
+      <div class="footer0">
+        <h1>WorldCart.in</h1>
+      </div>
+      <div class="footer1 ">
+        Connect with us at<div class="social-media">
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="product">
+          <div class="heading">Products</div>
+          <div class="div">Sell your Products</div>
+          <div class="div">Advertise</div>
+          <div class="div">Pricing</div>
+          <div class="div">Product Buisness</div>
+  
+        </div>
+        <div class="services">
+          <div class="heading">Services</div>
+          <div class="div">Return</div>
+          <div class="div">Cash Back</div>
+          <div class="div">Affiliate Marketing</div>
+          <div class="div">Others</div>
+        </div>
+        <div class="Company">
+          <div class="heading">Company</div>
+          <div class="div">Complaint</div>
+          <div class="div">Careers</div>
+          <div class="div">Affiliate Marketing</div>
+          <div class="div">Support</div>
+        </div>
+        <div class="Get Help">
+          <div class="heading">Get Help</div>
+          <div class="div">Help Center</div>
+          <div class="div">Privacy Policy</div>
+          <div class="div">Terms</div>
+          <div class="div">Login</div>
+        </div>
+      </div>
+      <div class="footer3">Copyright © <h4>WorldCart.in</h4> 2021-2028</div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./ecommerce.js"></script>
+    <script src="./java2.js"></script>
+  
+  </body>
+  
+  </html>
